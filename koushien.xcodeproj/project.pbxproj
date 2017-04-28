@@ -7,13 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1CB64C1B942AD30062559B /* beforesendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CB64B1B942AD30062559B /* beforesendViewController.swift */; };
+		6A1CB64E1B942AE10062559B /* beforesend2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CB64D1B942AE10062559B /* beforesend2ViewController.swift */; };
+		6A1CB6501B942AEF0062559B /* beforesend3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1CB64F1B942AEF0062559B /* beforesend3ViewController.swift */; };
+		6A2CDB8A1BB7FA22007C4D95 /* bluefriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2CDB891BB7FA22007C4D95 /* bluefriendsViewController.swift */; };
+		6A2CDB8C1BB7FF9E007C4D95 /* Data in Both Directions-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2CDB8B1BB7FF9E007C4D95 /* Data in Both Directions-50.png */; };
+		6A2CDB8E1BB7FFA8007C4D95 /* Find User Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2CDB8D1BB7FFA8007C4D95 /* Find User Filled-100.png */; };
 		6A6F1D2B1B77194D007BDC13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D2A1B77194D007BDC13 /* AppDelegate.swift */; };
 		6A6F1D2E1B77194D007BDC13 /* koushien.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D2C1B77194D007BDC13 /* koushien.xcdatamodeld */; };
 		6A6F1D301B77194D007BDC13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D2F1B77194D007BDC13 /* ViewController.swift */; };
-		6A6F1D331B77194D007BDC13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F1D311B77194D007BDC13 /* Main.storyboard */; };
 		6A6F1D351B77194D007BDC13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F1D341B77194D007BDC13 /* Images.xcassets */; };
 		6A6F1D381B77194D007BDC13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F1D361B77194D007BDC13 /* LaunchScreen.xib */; };
 		6A6F1D441B77194D007BDC13 /* koushienTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D431B77194D007BDC13 /* koushienTests.swift */; };
+		6A6F1D521B77246A007BDC13 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D511B77246A007BDC13 /* secondViewController.swift */; };
+		6A6F1D541B7724CC007BDC13 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D531B7724CC007BDC13 /* thirdViewController.swift */; };
+		6A6F1D561B77525B007BDC13 /* send01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D551B77525B007BDC13 /* send01ViewController.swift */; };
+		6A6F1D581B775268007BDC13 /* make01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D571B775268007BDC13 /* make01ViewController.swift */; };
+		6A6F1D5A1B775434007BDC13 /* friendnameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D591B775434007BDC13 /* friendnameViewController.swift */; };
+		6A6F1D5C1B7754DB007BDC13 /* friendschoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D5B1B7754DB007BDC13 /* friendschoolViewController.swift */; };
+		6A6F1D5E1B77552A007BDC13 /* friendyearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D5D1B77552A007BDC13 /* friendyearViewController.swift */; };
+		6A6F1D601B7755C9007BDC13 /* friendclubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D5F1B7755C9007BDC13 /* friendclubViewController.swift */; };
+		6A6F1D621B77580F007BDC13 /* SnsidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D611B77580F007BDC13 /* SnsidViewController.swift */; };
+		6A6F1D641B775837007BDC13 /* friendcommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D631B775837007BDC13 /* friendcommentViewController.swift */; };
+		6A6F1D661B775AB5007BDC13 /* friendpicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F1D651B775AB5007BDC13 /* friendpicViewController.swift */; };
+		6A819CAA1B8EB166002EA77C /* iconvv in Resources */ = {isa = PBXBuildFile; fileRef = 6A819CA91B8EB166002EA77C /* iconvv */; };
+		6A819CAC1B8EBD88002EA77C /* segueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A819CAB1B8EBD88002EA77C /* segueViewController.swift */; };
+		6A819CAE1B8EC4DC002EA77C /* piclikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A819CAD1B8EC4DC002EA77C /* piclikeViewController.swift */; };
+		6A819CB01B8EC59E002EA77C /* eraipreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A819CAF1B8EC59E002EA77C /* eraipreViewController.swift */; };
+		6A819CB21B8ECB2D002EA77C /* Back-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A819CB11B8ECB2D002EA77C /* Back-100.png */; };
+		6A819CB41B8FFB0A002EA77C /* likepreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A819CB31B8FFB0A002EA77C /* likepreViewController.swift */; };
+		6A819CB61B90070F002EA77C /* erai-sendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A819CB51B90070F002EA77C /* erai-sendViewController.swift */; };
+		6A819CB81B90071D002EA77C /* like-sendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A819CB71B90071D002EA77C /* like-sendViewController.swift */; };
+		6A819CBA1B902B58002EA77C /* Ok-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A819CB91B902B58002EA77C /* Ok-100.png */; };
+		6A819CBC1B902B6A002EA77C /* Cancel-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A819CBB1B902B6A002EA77C /* Cancel-100.png */; };
+		6AA087B51B8AAF8600405551 /* eraipreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA087B41B8AAF8600405551 /* eraipreviewViewController.swift */; };
+		6AA087B71B8D647200405551 /* likeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA087B61B8D647200405551 /* likeViewController.swift */; };
+		6AA087BD1B8D6E3200405551 /* Edit-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087BC1B8D6E3200405551 /* Edit-100.png */; };
+		6AA087BF1B8D757200405551 /* extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA087BE1B8D757200405551 /* extention.swift */; };
+		6AA087C11B8D779C00405551 /* Contact Card Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087C01B8D779C00405551 /* Contact Card Filled-100.png */; };
+		6AA087C51B8D78FE00405551 /* Arrow-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087C41B8D78FE00405551 /* Arrow-100.png */; };
+		6AA087C71B8D7CA300405551 /* tutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA087C61B8D7CA300405551 /* tutorialViewController.swift */; };
+		6AA087C91B8D80DB00405551 /* photofriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA087C81B8D80DB00405551 /* photofriendViewController.swift */; };
+		6AA087CB1B8D80E800405551 /* photoeraiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA087CA1B8D80E800405551 /* photoeraiViewController.swift */; };
+		6AA087CD1B8D80F600405551 /* photolikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA087CC1B8D80F600405551 /* photolikeViewController.swift */; };
+		6AA087D11B8D970A00405551 /* Brain Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087D01B8D970A00405551 /* Brain Filled-100.png */; };
+		6AA087D31B8D972400405551 /* Date Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087D21B8D972400405551 /* Date Filled-100.png */; };
+		6AA087D51B8D972D00405551 /* Edit Property-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087D41B8D972D00405551 /* Edit Property-100.png */; };
+		6AA087D71B8D973E00405551 /* Sent-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087D61B8D973E00405551 /* Sent-100.png */; };
+		6AA087D91B8D97D100405551 /* User Group Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087D81B8D97D100405551 /* User Group Filled-100.png */; };
+		6AA087DB1B8DD26800405551 /* Return Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087DA1B8DD26800405551 /* Return Filled-100.png */; };
+		6AA087DF1B8DD3DF00405551 /* Hand Filled-64-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087DE1B8DD3DF00405551 /* Hand Filled-64-2.png */; };
+		6AA087E31B8DE3AF00405551 /* iconmask.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087E21B8DE3AF00405551 /* iconmask.png */; };
+		6AA087E51B8E997700405551 /* Hand Filled-100-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA087E41B8E997700405551 /* Hand Filled-100-2.png */; };
+		6AD868771BB817FC00319A59 /* blueeraiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD868761BB817FC00319A59 /* blueeraiViewController.swift */; };
+		6AD868791BB8180700319A59 /* bluelikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD868781BB8180700319A59 /* bluelikeViewController.swift */; };
+		6AF0E6C21B89E1D2004AEB16 /* eraiclassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF0E6C11B89E1D2004AEB16 /* eraiclassViewController.swift */; };
+		6AF0E6C41B89E1F5004AEB16 /* eraimailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF0E6C31B89E1F5004AEB16 /* eraimailViewController.swift */; };
+		6AF0E6C61B89E234004AEB16 /* send1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF0E6C51B89E234004AEB16 /* send1ViewController.swift */; };
+		6AF819BC1BAAFEAD00A1399C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF819BB1BAAFEAD00A1399C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +78,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A1CB64B1B942AD30062559B /* beforesendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beforesendViewController.swift; sourceTree = "<group>"; };
+		6A1CB64D1B942AE10062559B /* beforesend2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beforesend2ViewController.swift; sourceTree = "<group>"; };
+		6A1CB64F1B942AEF0062559B /* beforesend3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = beforesend3ViewController.swift; sourceTree = "<group>"; };
+		6A2CDB891BB7FA22007C4D95 /* bluefriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bluefriendsViewController.swift; sourceTree = "<group>"; };
+		6A2CDB8B1BB7FF9E007C4D95 /* Data in Both Directions-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Data in Both Directions-50.png"; sourceTree = "<group>"; };
+		6A2CDB8D1BB7FFA8007C4D95 /* Find User Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Find User Filled-100.png"; sourceTree = "<group>"; };
 		6A6F1D251B77194D007BDC13 /* koushien.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = koushien.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6F1D291B77194D007BDC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A6F1D2A1B77194D007BDC13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A6F1D2D1B77194D007BDC13 /* koushien.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = koushien.xcdatamodel; sourceTree = "<group>"; };
 		6A6F1D2F1B77194D007BDC13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6A6F1D321B77194D007BDC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A6F1D341B77194D007BDC13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6A6F1D371B77194D007BDC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6A6F1D3D1B77194D007BDC13 /* koushienTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = koushienTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6F1D421B77194D007BDC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A6F1D431B77194D007BDC13 /* koushienTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koushienTests.swift; sourceTree = "<group>"; };
+		6A6F1D511B77246A007BDC13 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		6A6F1D531B7724CC007BDC13 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		6A6F1D551B77525B007BDC13 /* send01ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = send01ViewController.swift; sourceTree = "<group>"; };
+		6A6F1D571B775268007BDC13 /* make01ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = make01ViewController.swift; sourceTree = "<group>"; };
+		6A6F1D591B775434007BDC13 /* friendnameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendnameViewController.swift; sourceTree = "<group>"; };
+		6A6F1D5B1B7754DB007BDC13 /* friendschoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendschoolViewController.swift; sourceTree = "<group>"; };
+		6A6F1D5D1B77552A007BDC13 /* friendyearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendyearViewController.swift; sourceTree = "<group>"; };
+		6A6F1D5F1B7755C9007BDC13 /* friendclubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendclubViewController.swift; sourceTree = "<group>"; };
+		6A6F1D611B77580F007BDC13 /* SnsidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnsidViewController.swift; sourceTree = "<group>"; };
+		6A6F1D631B775837007BDC13 /* friendcommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendcommentViewController.swift; sourceTree = "<group>"; };
+		6A6F1D651B775AB5007BDC13 /* friendpicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendpicViewController.swift; sourceTree = "<group>"; };
+		6A819CA91B8EB166002EA77C /* iconvv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iconvv; sourceTree = "<group>"; };
+		6A819CAB1B8EBD88002EA77C /* segueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = segueViewController.swift; sourceTree = "<group>"; };
+		6A819CAD1B8EC4DC002EA77C /* piclikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = piclikeViewController.swift; sourceTree = "<group>"; };
+		6A819CAF1B8EC59E002EA77C /* eraipreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eraipreViewController.swift; sourceTree = "<group>"; };
+		6A819CB11B8ECB2D002EA77C /* Back-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-100.png"; sourceTree = "<group>"; };
+		6A819CB31B8FFB0A002EA77C /* likepreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = likepreViewController.swift; sourceTree = "<group>"; };
+		6A819CB51B90070F002EA77C /* erai-sendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "erai-sendViewController.swift"; sourceTree = "<group>"; };
+		6A819CB71B90071D002EA77C /* like-sendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "like-sendViewController.swift"; sourceTree = "<group>"; };
+		6A819CB91B902B58002EA77C /* Ok-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ok-100.png"; sourceTree = "<group>"; };
+		6A819CBB1B902B6A002EA77C /* Cancel-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cancel-100.png"; sourceTree = "<group>"; };
+		6AA087B41B8AAF8600405551 /* eraipreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eraipreviewViewController.swift; sourceTree = "<group>"; };
+		6AA087B61B8D647200405551 /* likeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = likeViewController.swift; sourceTree = "<group>"; };
+		6AA087BC1B8D6E3200405551 /* Edit-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edit-100.png"; sourceTree = "<group>"; };
+		6AA087BE1B8D757200405551 /* extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extention.swift; sourceTree = "<group>"; };
+		6AA087C01B8D779C00405551 /* Contact Card Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact Card Filled-100.png"; sourceTree = "<group>"; };
+		6AA087C41B8D78FE00405551 /* Arrow-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow-100.png"; sourceTree = "<group>"; };
+		6AA087C61B8D7CA300405551 /* tutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tutorialViewController.swift; sourceTree = "<group>"; };
+		6AA087C81B8D80DB00405551 /* photofriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photofriendViewController.swift; sourceTree = "<group>"; };
+		6AA087CA1B8D80E800405551 /* photoeraiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoeraiViewController.swift; sourceTree = "<group>"; };
+		6AA087CC1B8D80F600405551 /* photolikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photolikeViewController.swift; sourceTree = "<group>"; };
+		6AA087D01B8D970A00405551 /* Brain Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brain Filled-100.png"; sourceTree = "<group>"; };
+		6AA087D21B8D972400405551 /* Date Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Date Filled-100.png"; sourceTree = "<group>"; };
+		6AA087D41B8D972D00405551 /* Edit Property-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edit Property-100.png"; sourceTree = "<group>"; };
+		6AA087D61B8D973E00405551 /* Sent-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sent-100.png"; sourceTree = "<group>"; };
+		6AA087D81B8D97D100405551 /* User Group Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Group Filled-100.png"; sourceTree = "<group>"; };
+		6AA087DA1B8DD26800405551 /* Return Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Return Filled-100.png"; sourceTree = "<group>"; };
+		6AA087DE1B8DD3DF00405551 /* Hand Filled-64-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hand Filled-64-2.png"; sourceTree = "<group>"; };
+		6AA087E21B8DE3AF00405551 /* iconmask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconmask.png; sourceTree = "<group>"; };
+		6AA087E41B8E997700405551 /* Hand Filled-100-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hand Filled-100-2.png"; sourceTree = "<group>"; };
+		6AD868761BB817FC00319A59 /* blueeraiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blueeraiViewController.swift; sourceTree = "<group>"; };
+		6AD868781BB8180700319A59 /* bluelikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bluelikeViewController.swift; sourceTree = "<group>"; };
+		6AF0E6C11B89E1D2004AEB16 /* eraiclassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eraiclassViewController.swift; sourceTree = "<group>"; };
+		6AF0E6C31B89E1F5004AEB16 /* eraimailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eraimailViewController.swift; sourceTree = "<group>"; };
+		6AF0E6C51B89E234004AEB16 /* send1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = send1ViewController.swift; sourceTree = "<group>"; };
+		6AF819BB1BAAFEAD00A1399C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +182,59 @@
 			isa = PBXGroup;
 			children = (
 				6A6F1D2A1B77194D007BDC13 /* AppDelegate.swift */,
+				6AF819BB1BAAFEAD00A1399C /* Main.storyboard */,
+				6A2CDB891BB7FA22007C4D95 /* bluefriendsViewController.swift */,
+				6AD868761BB817FC00319A59 /* blueeraiViewController.swift */,
+				6AD868781BB8180700319A59 /* bluelikeViewController.swift */,
+				6A1CB64B1B942AD30062559B /* beforesendViewController.swift */,
+				6A1CB64D1B942AE10062559B /* beforesend2ViewController.swift */,
+				6A1CB64F1B942AEF0062559B /* beforesend3ViewController.swift */,
+				6AA087CC1B8D80F600405551 /* photolikeViewController.swift */,
+				6A819CB51B90070F002EA77C /* erai-sendViewController.swift */,
+				6A819CB71B90071D002EA77C /* like-sendViewController.swift */,
+				6A6F1D551B77525B007BDC13 /* send01ViewController.swift */,
+				6A819CAF1B8EC59E002EA77C /* eraipreViewController.swift */,
+				6A819CB31B8FFB0A002EA77C /* likepreViewController.swift */,
+				6A819CAB1B8EBD88002EA77C /* segueViewController.swift */,
+				6AA087C61B8D7CA300405551 /* tutorialViewController.swift */,
 				6A6F1D2F1B77194D007BDC13 /* ViewController.swift */,
-				6A6F1D311B77194D007BDC13 /* Main.storyboard */,
+				6AA087C81B8D80DB00405551 /* photofriendViewController.swift */,
+				6AA087CA1B8D80E800405551 /* photoeraiViewController.swift */,
+				6A819CAD1B8EC4DC002EA77C /* piclikeViewController.swift */,
+				6A819CA91B8EB166002EA77C /* iconvv */,
+				6AA087BE1B8D757200405551 /* extention.swift */,
+				6AA087B61B8D647200405551 /* likeViewController.swift */,
+				6AF0E6C51B89E234004AEB16 /* send1ViewController.swift */,
+				6AF0E6C11B89E1D2004AEB16 /* eraiclassViewController.swift */,
+				6AF0E6C31B89E1F5004AEB16 /* eraimailViewController.swift */,
+				6A6F1D651B775AB5007BDC13 /* friendpicViewController.swift */,
+				6A6F1D631B775837007BDC13 /* friendcommentViewController.swift */,
+				6A6F1D611B77580F007BDC13 /* SnsidViewController.swift */,
+				6A6F1D5F1B7755C9007BDC13 /* friendclubViewController.swift */,
+				6A2CDB8B1BB7FF9E007C4D95 /* Data in Both Directions-50.png */,
+				6A2CDB8D1BB7FFA8007C4D95 /* Find User Filled-100.png */,
+				6A6F1D5D1B77552A007BDC13 /* friendyearViewController.swift */,
+				6AA087B41B8AAF8600405551 /* eraipreviewViewController.swift */,
+				6A6F1D5B1B7754DB007BDC13 /* friendschoolViewController.swift */,
+				6A6F1D591B775434007BDC13 /* friendnameViewController.swift */,
+				6A6F1D571B775268007BDC13 /* make01ViewController.swift */,
+				6A6F1D511B77246A007BDC13 /* secondViewController.swift */,
+				6A6F1D531B7724CC007BDC13 /* thirdViewController.swift */,
+				6A819CBB1B902B6A002EA77C /* Cancel-100.png */,
+				6A819CB91B902B58002EA77C /* Ok-100.png */,
+				6AA087DE1B8DD3DF00405551 /* Hand Filled-64-2.png */,
+				6A819CB11B8ECB2D002EA77C /* Back-100.png */,
+				6AA087DA1B8DD26800405551 /* Return Filled-100.png */,
+				6AA087D21B8D972400405551 /* Date Filled-100.png */,
+				6AA087D01B8D970A00405551 /* Brain Filled-100.png */,
+				6AA087E21B8DE3AF00405551 /* iconmask.png */,
+				6AA087E41B8E997700405551 /* Hand Filled-100-2.png */,
+				6AA087D81B8D97D100405551 /* User Group Filled-100.png */,
+				6AA087C01B8D779C00405551 /* Contact Card Filled-100.png */,
+				6AA087D61B8D973E00405551 /* Sent-100.png */,
+				6AA087D41B8D972D00405551 /* Edit Property-100.png */,
+				6AA087C41B8D78FE00405551 /* Arrow-100.png */,
+				6AA087BC1B8D6E3200405551 /* Edit-100.png */,
 				6A6F1D341B77194D007BDC13 /* Images.xcassets */,
 				6A6F1D361B77194D007BDC13 /* LaunchScreen.xib */,
 				6A6F1D2C1B77194D007BDC13 /* koushien.xcdatamodeld */,
@@ -159,14 +312,19 @@
 		6A6F1D1D1B77194D007BDC13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "naya saito";
 				TargetAttributes = {
 					6A6F1D241B77194D007BDC13 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = H4XHVQY9KH;
+						LastSwiftMigration = 0820;
 					};
 					6A6F1D3C1B77194D007BDC13 = {
 						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = 6A6F1D241B77194D007BDC13;
 					};
 				};
@@ -195,8 +353,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A6F1D331B77194D007BDC13 /* Main.storyboard in Resources */,
+				6A819CBC1B902B6A002EA77C /* Cancel-100.png in Resources */,
+				6A2CDB8C1BB7FF9E007C4D95 /* Data in Both Directions-50.png in Resources */,
+				6AA087E31B8DE3AF00405551 /* iconmask.png in Resources */,
+				6AA087C11B8D779C00405551 /* Contact Card Filled-100.png in Resources */,
+				6A819CB21B8ECB2D002EA77C /* Back-100.png in Resources */,
+				6AA087E51B8E997700405551 /* Hand Filled-100-2.png in Resources */,
+				6AA087BD1B8D6E3200405551 /* Edit-100.png in Resources */,
+				6AA087D71B8D973E00405551 /* Sent-100.png in Resources */,
 				6A6F1D381B77194D007BDC13 /* LaunchScreen.xib in Resources */,
+				6AA087D51B8D972D00405551 /* Edit Property-100.png in Resources */,
+				6A2CDB8E1BB7FFA8007C4D95 /* Find User Filled-100.png in Resources */,
+				6AA087D91B8D97D100405551 /* User Group Filled-100.png in Resources */,
+				6AA087DF1B8DD3DF00405551 /* Hand Filled-64-2.png in Resources */,
+				6AA087D11B8D970A00405551 /* Brain Filled-100.png in Resources */,
+				6A819CAA1B8EB166002EA77C /* iconvv in Resources */,
+				6A819CBA1B902B58002EA77C /* Ok-100.png in Resources */,
+				6AA087C51B8D78FE00405551 /* Arrow-100.png in Resources */,
+				6AA087D31B8D972400405551 /* Date Filled-100.png in Resources */,
+				6AA087DB1B8DD26800405551 /* Return Filled-100.png in Resources */,
+				6AF819BC1BAAFEAD00A1399C /* Main.storyboard in Resources */,
 				6A6F1D351B77194D007BDC13 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +391,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6F1D521B77246A007BDC13 /* secondViewController.swift in Sources */,
+				6A1CB64C1B942AD30062559B /* beforesendViewController.swift in Sources */,
+				6A819CB41B8FFB0A002EA77C /* likepreViewController.swift in Sources */,
+				6AF0E6C21B89E1D2004AEB16 /* eraiclassViewController.swift in Sources */,
+				6A6F1D581B775268007BDC13 /* make01ViewController.swift in Sources */,
 				6A6F1D301B77194D007BDC13 /* ViewController.swift in Sources */,
+				6A819CB01B8EC59E002EA77C /* eraipreViewController.swift in Sources */,
+				6A6F1D541B7724CC007BDC13 /* thirdViewController.swift in Sources */,
+				6A1CB64E1B942AE10062559B /* beforesend2ViewController.swift in Sources */,
+				6A6F1D621B77580F007BDC13 /* SnsidViewController.swift in Sources */,
+				6A6F1D561B77525B007BDC13 /* send01ViewController.swift in Sources */,
+				6AF0E6C61B89E234004AEB16 /* send1ViewController.swift in Sources */,
+				6A6F1D5C1B7754DB007BDC13 /* friendschoolViewController.swift in Sources */,
+				6A819CAC1B8EBD88002EA77C /* segueViewController.swift in Sources */,
+				6A2CDB8A1BB7FA22007C4D95 /* bluefriendsViewController.swift in Sources */,
+				6AA087B71B8D647200405551 /* likeViewController.swift in Sources */,
+				6A6F1D661B775AB5007BDC13 /* friendpicViewController.swift in Sources */,
+				6A6F1D601B7755C9007BDC13 /* friendclubViewController.swift in Sources */,
+				6AA087BF1B8D757200405551 /* extention.swift in Sources */,
+				6AF0E6C41B89E1F5004AEB16 /* eraimailViewController.swift in Sources */,
+				6AA087CD1B8D80F600405551 /* photolikeViewController.swift in Sources */,
+				6A819CB61B90070F002EA77C /* erai-sendViewController.swift in Sources */,
+				6A819CAE1B8EC4DC002EA77C /* piclikeViewController.swift in Sources */,
+				6AA087C71B8D7CA300405551 /* tutorialViewController.swift in Sources */,
+				6AA087CB1B8D80E800405551 /* photoeraiViewController.swift in Sources */,
+				6AA087B51B8AAF8600405551 /* eraipreviewViewController.swift in Sources */,
 				6A6F1D2B1B77194D007BDC13 /* AppDelegate.swift in Sources */,
 				6A6F1D2E1B77194D007BDC13 /* koushien.xcdatamodeld in Sources */,
+				6A819CB81B90071D002EA77C /* like-sendViewController.swift in Sources */,
+				6A6F1D5A1B775434007BDC13 /* friendnameViewController.swift in Sources */,
+				6AA087C91B8D80DB00405551 /* photofriendViewController.swift in Sources */,
+				6A6F1D641B775837007BDC13 /* friendcommentViewController.swift in Sources */,
+				6AD868771BB817FC00319A59 /* blueeraiViewController.swift in Sources */,
+				6A6F1D5E1B77552A007BDC13 /* friendyearViewController.swift in Sources */,
+				6A1CB6501B942AEF0062559B /* beforesend3ViewController.swift in Sources */,
+				6AD868791BB8180700319A59 /* bluelikeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6A6F1D311B77194D007BDC13 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A6F1D321B77194D007BDC13 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6A6F1D361B77194D007BDC13 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,14 +473,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -316,8 +520,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -336,6 +542,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -344,9 +551,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = koushien/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ocha.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -354,9 +568,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = koushien/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ocha.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -374,7 +595,9 @@
 				);
 				INFOPLIST_FILE = koushienTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ocha.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/koushien.app/koushien";
 			};
 			name = Debug;
@@ -389,7 +612,9 @@
 				);
 				INFOPLIST_FILE = koushienTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ocha.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/koushien.app/koushien";
 			};
 			name = Release;
@@ -413,6 +638,7 @@
 				6A6F1D491B77194D007BDC13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A6F1D4A1B77194D007BDC13 /* Build configuration list for PBXNativeTarget "koushienTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +647,7 @@
 				6A6F1D4C1B77194D007BDC13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
